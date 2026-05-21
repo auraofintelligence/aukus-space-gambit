@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Signal review support for the AUKUS Space Gambit and ISS preservation hypothesis.">
+  <meta name="theme-color" content="#06111f">
+  <title>Support | AUKUS Space Gambit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nunito+Sans:wght@800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="AUKUS Space Gambit home"><span class="brand-mark">ASG</span><span><strong>AUKUS Space Gambit</strong><small>ISS preservation hypothesis</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="baseline.html">Baseline</a>
+      <a href="gambit.html">Gambit</a>
+      <a href="feasibility.html">Feasibility</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" id="top">
+      <div class="page-hero-inner">
+        <p class="status-note">Early review support</p>
+        <h1>Help test the gambit without turning it into noise.</h1>
+        <p class="hero-copy">The highest-value support is careful expertise: the person who can tell us what would have to be true, what has already been ruled out, and what evidence is missing.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="lanes-title">
+      <div class="section-heading">
+        <p class="eyebrow">Support lanes</p>
+        <h2 id="lanes-title">The review needs many kinds of grown-up help.</h2>
+      </div>
+      <div class="fact-grid">
+        <article><h3>Orbital mechanics reviewer</h3><p>Delta-v, docking, reboost, disposal orbit, decay and failure-mode review.</p></article>
+        <article><h3>Space law and treaty reviewer</h3><p>Outer Space Treaty, partner consent, liability, registration and governance implications.</p></article>
+        <article><h3>AUKUS / defence-transition reviewer</h3><p>Pillar II relevance, peaceful framing, export-control realities and public-interest boundaries.</p></article>
+        <article><h3>Heritage and science reviewer</h3><p>ISS as science platform, museum, public artefact, education resource or future research node.</p></article>
+        <article><h3>Cost and procurement reviewer</h3><p>Lifecycle cost comparison, schedule realism, procurement path and who would pay for what.</p></article>
+        <article><h3>Communications support</h3><p>Plain-English explainers, diagrams, corrections, public Q&A and media discipline.</p></article>
+      </div>
+    </section>
+
+    <section class="section builder-section" aria-labelledby="note-title">
+      <div class="section-heading">
+        <p class="eyebrow">Markdown signal</p>
+        <h2 id="note-title">Create a clean review note.</h2>
+      </div>
+      <div class="builder-layout">
+        <form class="support-form" data-support-form>
+          <label>Name or organisation
+            <input name="name" type="text" placeholder="Your name, team or organisation">
+          </label>
+          <label>Best contact path
+            <input name="contact" type="text" placeholder="Email, website, intro path or preferred contact">
+          </label>
+          <label>Review lane
+            <select name="lane">
+              <option>Orbital mechanics reviewer</option>
+              <option>Space law and treaty reviewer</option>
+              <option>AUKUS / defence-transition reviewer</option>
+              <option>Heritage and science reviewer</option>
+              <option>Cost and procurement reviewer</option>
+              <option>Communications support</option>
+              <option>General early supporter</option>
+            </select>
+          </label>
+          <label>What you can help test
+            <textarea name="offer" rows="5" placeholder="Example: I can review the deorbit delta-v assumptions, compare preservation pathways, or sanity-check the treaty framing."></textarea>
+          </label>
+          <label>Evidence, caution or boundary
+            <textarea name="boundaries" rows="4" placeholder="Anything that must be handled carefully: conflict of interest, attribution, classified/proprietary limits, uncertainty, or source caveats."></textarea>
+          </label>
+          <label>Useful next step
+            <input name="next" type="text" placeholder="Example: send brief, 30-minute review call, add source, correct a claim">
+          </label>
+        </form>
+        <aside class="markdown-panel">
+          <label for="support-output">Generated Markdown</label>
+          <textarea id="support-output" rows="18" readonly data-support-output></textarea>
+          <div class="builder-actions">
+            <button class="button button-primary" type="button" data-copy-support>Copy Markdown</button>
+            <button class="button button-secondary" type="button" data-download-support>Download .md</button>
+          </div>
+          <p class="privacy-note">This runs in your browser. It does not submit private details anywhere.</p>
+        </aside>
+      </div>
+    </section>
+
+    <nav class="trail-nav" aria-label="Previous and next pages">
+      <a class="button button-secondary" href="feasibility.html">Previous: Feasibility</a>
+      <a class="button button-primary" href="sources.html">Next: Sources</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>Independent public hypothesis site. Support notes are drafts until explicitly shared by the person creating them.</p>
+    <nav aria-label="Footer links"><a href="support.html">Signal support</a><a href="sources.html">Sources</a><a href="https://auraofintelligence.github.io/GAJRA_Earth-Space-AI_Summit/" target="_blank" rel="noopener noreferrer">Brisbane Summit</a><a href="#top">Back to top</a></nav>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+  <script src="script.js"></script>
+</body>
+</html>
